@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/decorators/__init__.py
+src/decorators/decorators.py
+src/decorators_project.egg-info/PKG-INFO
+src/decorators_project.egg-info/SOURCES.txt
+src/decorators_project.egg-info/dependency_links.txt
+src/decorators_project.egg-info/top_level.txt
