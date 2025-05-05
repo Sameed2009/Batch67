@@ -1,0 +1,21 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Shahid Ali", email = "145369020+Sameed2009@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "openai-agents>=0.0.14",
+]
+
+[project.scripts]
+hello-agent = "hello_agent:main"
+my_first_agent = "hello_agent.agent_hello:My_First_Agent"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
